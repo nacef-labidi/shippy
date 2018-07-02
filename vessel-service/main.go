@@ -48,7 +48,7 @@ func main() {
     repo := &VesselRepository{vessels}
 
     srv := micro.NewService(
-        micor.Name("go.micro.srv.vessel"),
+        micro.Name("go.micro.srv.vessel"),
         micro.Version("latest"),
     )
 
