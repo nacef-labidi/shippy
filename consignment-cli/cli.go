@@ -5,7 +5,7 @@ import (
     "io/ioutil"
     "log"
     "os"
-    pb "github.com/naceflabidi/shipper/consignment-service/proto/consignment"
+    pb "github.com/nacef-labidi/shippy/consignment-service/proto/consignment"
     "golang.org/x/net/context"
     "github.com/micro/go-micro/cmd"
     microclient "github.com/micro/go-micro/client"
